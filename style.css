@@ -1,0 +1,61 @@
+
+h1,h3{
+    text-align: center;
+    margin: 1rem;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
+.outer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    height: 35vw;
+    /* justify-self: center; */
+    align-self: center;
+    justify-content: center;
+    align-content: center;
+}
+.clors{
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    border: .4rem solid black;
+    border-radius: 2rem;
+    margin:  0rem .4rem  .4rem  .0rem ;
+}
+#red{
+    background-color: rgb(213, 80, 117);
+}
+#gray{
+    background-color: rgb(88, 160, 185);
+}
+#orenge{
+
+    background-color: orange;
+
+
+}
+
+#blue{
+    background-color: rgb(119, 148, 248);
+}
+
+.white{
+    background-color: white !important;
+   
+}
+button{
+    width: 7rem;
+    justify-self: center;
+    align-self: center;
+    margin-top: 10px;
+}
+
+.greenl{
+    background-color: rgb(140, 255, 114) !important;
+}
